@@ -1,0 +1,25 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": ["mdlint", "netwk", "stylelintignore"],
+  "ignorePaths": [
+    ".gitignore",
+    ".gitattributes",
+    "docs_raw/sitemap.xml",
+    "docs_raw/robots.txt",
+    "**/build/**",
+    "**/.cache/**",
+    "**/node_modules/**",
+    "**/docs/**"
+  ],
+  "ignoreWords": [],
+  "enableFiletypes": [
+    "javascript",
+    "typescript",
+    "json",
+    "markdown",
+    "html",
+    "svelte"
+  ],
+  "useGitignore": true
+}
