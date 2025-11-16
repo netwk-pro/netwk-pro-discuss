@@ -1,7 +1,7 @@
 {
   "name": "@netwk-pro/netwk-pro-discuss",
-  "version": "0.0.2",
-  "description": "The GitHub Discussion forum for Network Pro Strategies (Network Pro).",
+  "version": "1.0.0",
+  "description": "The GitHub Discussion forum for Network Pro Strategies (Network Pro™).",
   "keywords": [
     "networking",
     "security",
@@ -10,7 +10,7 @@
     "advisory",
     "consulting"
   ],
-  "homepage": "https://netwk.pro",
+  "homepage": "https://github.com/netwk-pro/netwk-pro.github.io/discussions",
   "bugs": {
     "url": "https://github.com/netwk-pro/netwk-pro.github.io/issues"
   },
@@ -19,28 +19,40 @@
     "url": "git+https://github.com/netwk-pro/netwk-pro-discuss.git"
   },
   "license": "CC-BY-4.0 OR GPL-3.0-or-later",
-  "author": "Scott Lopez",
+  "author": {
+    "name": "Scott Lopez",
+    "email": "github@sl.neteng.cc",
+    "url": "https://bio.netwk.pro"
+  },
   "type": "module",
-  "main": "README.md",
   "scripts": {
-    "test": "mocha",
-    "lint": "npx eslint && prettier --check .",
-    "mdlint": "npx markdownlint-cli2 '**/*.md' '!node_modules/**'",
-    "fix": "npx eslint --fix && prettier --write .",
-    "ci": "rm -rf node_modules package-lock.json && npm install"
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint": "eslint . --ext .mjs,.js,.cjs --config eslint.config.mjs",
+    "lint:fix": "eslint . --ext .mjs,.js,.cjs --fix --config eslint.config.mjs",
+    "lint:md": "npx markdownlint-cli2 \"**/*.{md,markdown}\" \"#node_modules/**\"",
+    "lint:all": "npm-run-all --parallel lint lint:md --sequential format",
+    "delete": "rm -rf node_modules package-lock.json",
+    "clean": "npm run delete && npm cache clean --force && npm install",
+    "checkout": "npm run lint:all",
+    "verify": "npm run checkout",
+    "upgrade": "ncu -u --format group --color",
+    "check:updates": "ncu --format group --color"
   },
   "dependencies": {
-    "browserslist": "^4.24.4"
+    "browserslist": "^4.28.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.21.0",
-    "chai": "^5.2.0",
-    "eslint": "^9.21.0",
-    "eslint-config-prettier": "^10.0.2",
-    "eslint-plugin-mocha": "^10.5.0",
-    "globals": "^16.0.0",
-    "markdownlint-cli2": "^0.17.2",
-    "mocha": "^11.1.0",
-    "prettier": "^3.5.2"
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.5.0",
+    "markdownlint": "^0.39.0",
+    "markdownlint-cli2": "^0.19.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.6.2"
+  },
+  "overrides": {
+    "brace-expansion": "^1.1.11"
   }
 }
