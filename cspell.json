@@ -1,7 +1,12 @@
 {
   "version": "0.2",
   "language": "en",
-  "words": ["mdlint", "netwk", "stylelintignore"],
+  "words": [
+    "bimi",
+    "mdlint",
+    "netwk",
+    "stylelintignore"
+  ],
   "ignorePaths": [
     ".gitignore",
     ".gitattributes",

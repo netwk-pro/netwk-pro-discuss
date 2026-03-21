@@ -1,4 +1,4 @@
-# 👋 Welcome to Network Pro Discussions
+# 👋 Welcome to Network Pro&trade; Discussions
 
 Our community is dedicated to fostering insightful discussions among like-minded users who are passionate about **security and privacy**. Whether you're here to share knowledge, ask questions, or collaborate on innovative ideas, we encourage open and respectful conversations.
 
@@ -30,14 +30,9 @@ Happy discussing! 🎉
 
 ---
 
-| [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/) | [![gnu-gpl](https://img.shields.io/badge/LICENSE-GPLv3-red?style=for-the-badge&labelColor=9b9b9b&color=d0021b)](https://www.gnu.org/licenses/gpl-3.0.html) |
-| :-------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
-
-&nbsp;
-
 <span style="font-size: 12px; font-weight: bold; text-align: center;">
 
-[Terms of Use](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/TERMS.md) &nbsp; | &nbsp; [Copyright and Licensing](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/LICENSE.md) &nbsp; | &nbsp; [Privacy Policy](https://github.com/netwk-pro/netwk-pro.github.io/blob/master/legal/PRIVACY.md)
+[Terms of Use](https://netwk.pro/terms-of-use) &nbsp; | &nbsp; [Copyright and Licensing](https://netwk.pro/legal) &nbsp; | &nbsp; [Privacy Policy](https://netwk.pro/privacy)
 
 </span>
 
@@ -45,9 +40,11 @@ Happy discussing! 🎉
 
 <span style="font-size: 12px; text-align: center;">
 
-**[Network Pro Strategies](https://netwk.pro/)** (Network Pro)  
-Copyright &copy; 2024-2025 **[Scott Lopez](https://bio.neteng.pro)**
+Copyright &copy; 2025, 2026  
+**[Network Pro Strategies, LLC](https://netwk.pro) (Network Pro&trade;)**
 
-Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+Network Pro&trade;, the shield logo, and the "Locking Down Networks...&trade;" slogan are [trademarks](https://netwk.pro/legal#trademark) of Network Pro Strategies.
+
+Licensed under **[CC BY 4.0](https://netwk.pro/legal#cc-by)** and the **[GNU GPL](https://netwk.pro/legal#gnu-gpl)**, as published by the [Free Software Foundation](https://www.fsf.org), either version 3 of the License, or (at your option) any later version.
 
 </span>
