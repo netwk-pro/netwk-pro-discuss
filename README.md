@@ -1,6 +1,6 @@
 # 👋 Welcome to Network Pro&trade; Discussions
 
-Our community is dedicated to fostering insightful discussions among like-minded users who are passionate about **security and privacy**. Whether you're here to share knowledge, ask questions, or collaborate on innovative ideas, we encourage open and respectful conversations.
+Our community is dedicated to fostering insightful discussions among like-minded users who are passionate about **security and digital privacy**. Whether you're here to share knowledge, ask questions, or collaborate on innovative ideas, we encourage open and respectful conversations.
 
 Feel free to start a discussion, contribute to ongoing topics, and help us build a strong, privacy-focused community. Let’s work together to enhance security for everyone! 🔒🚀
 
